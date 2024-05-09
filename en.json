@@ -1,0 +1,1606 @@
+{
+  "common": {
+    "no_more": "No More",
+    "no_data": "No Data",
+    "default_device_name": "Mobile Device",
+    "goto": "Go to",
+    "btn": "JoyID Wallet",
+    "testnet-warning": "JoyID Testnet. Please do not deposit mainnet assets."
+  },
+  "confirm_dialog": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "evm-web2-login": {
+    "request-auth": "Request user authentication",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "request-add-network": {
+    "title": "Allow this application to add a network?",
+    "desc": "This will add an unknown network to JoyID. Please confirm its security before using it.",
+    "cancel": "Cancel",
+    "approve": "Approve"
+  },
+  "add-erc20": {
+    "import-token": "Import Token",
+    "search": "Search Token",
+    "not-found": "Don't see your token?",
+    "title": "You're importing a token to this Network",
+    "warning": "🚨 Warning",
+    "warning-desc": "Make sure you trust a token before you import it.",
+    "ca": "Token Contract Address",
+    "symbol": "Token Symbol",
+    "decimal": "Token Decimal",
+    "cancel": "Cancel",
+    "next": "Next",
+    "placeholder": "Enter or paste contract address",
+    "errors": {
+      "invalid-address": "Invalid address",
+      "duplicated": "Duplicated contract address",
+      "ca-required": "Contract address is required"
+    },
+    "confirm": {
+      "title": "Would you like to import this token?",
+      "token": "Token",
+      "balance": "Your balance",
+      "network": "Belong to Network",
+      "back": "Back",
+      "import": "Import"
+    }
+  },
+  "add-evm-network": {
+    "title": "Add EVM Network",
+    "warning": "🚨 Warning",
+    "warning-desc": "A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.",
+    "network-name": "Network Name",
+    "network-rpc": "Network RPC URL",
+    "chain-id": "Chain ID",
+    "symbol": "Currency Symbol",
+    "explorer-url": "Block Explorer URL (Optional)",
+    "block-explorer": "Block Explorer URL",
+    "cancel": "Cancel",
+    "add": "Add",
+    "dapp": {
+      "title": "Allow this application to add a network?",
+      "desc": "This will add an unknown network to JoyID. Please confirm its security before using it."
+    },
+    "errors": {
+      "invalid-url": "URLs require the appropriate HTTP/HTTPS prefix.",
+      "invalid-rpc": "Could not fetch chain ID. Is your RPC URL correct?",
+      "duplicated": "This chain ID is currently used by the {{networkName}} network.",
+      "name-too-long": "Network name should be less than 24 characters.",
+      "name-required": "Network name is required.",
+      "rpc-required": "RPC URL is required."
+    },
+    "added-dialog": {
+      "title": "Successfully!",
+      "desc": "Network added successfully!",
+      "btn": "Switch to {{network}}"
+    },
+    "delete-dialog": {
+      "title": "Delete {{network}} network?",
+      "desc": "If you delete this network, you will need to add it again to view your assets in this network",
+      "btn": "Delete"
+    }
+  },
+  "exchange": {
+    "title": "Instant Swap",
+    "powered-by": "Powered by <a>{{ url }}</a>",
+    "dialog": {
+      "title": "👏 Instant Swap",
+      "desc": "Welcome to Instant Swap portal, you can access the following features:",
+      "list-1": "Fiat-on-ramp, to change your fiat into crypto assets",
+      "list-2": "Swap cross-chain assets with one-click",
+      "summary": "This service is presented by <a>{{ url }}</a>",
+      "btn": "Copy Address & Next"
+    }
+  },
+  "copier": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "copy_url": "Copy URL",
+    "copy_to_clipboard": "Copy to Clipboard"
+  },
+  "qrcode-scanner": {
+    "title": "Scan",
+    "connect": "Connect",
+    "wc_placeholder": "e.g. wc:a281567bb3e4...",
+    "wc_url_invalid": "Invalid WalletConnect URI",
+    "wc_tips": "Or use WalletConnect URI"
+  },
+  "wallet-connect": {
+    "walletconnect": "Wallet Connect",
+    "connecting": "Connecting...",
+    "connect_fail": "Connection Failed. Please try again.",
+    "wc_link_error": "Please refresh current page or go back DApp to connect again",
+    "refresh_qr_code": "Refresh QR code and try again",
+    "back": "Back",
+    "back_home": "Back home",
+    "approve": "Approve",
+    "reject": "Reject",
+    "authorize": "Authorize to connect",
+    "disconnect": "disconnect",
+    "sign_in": "Sign request from ",
+    "signing": "You are signing for",
+    "message": "Messages",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "typed_data": "typed data",
+    "transaction": "transaction",
+    "user_reject": "User rejected.",
+    "chain_not_supported": "The blockchain is not supported",
+    "connect-joyid": "Request to connect to your JoyID wallet",
+    "auth_description1": "This application will be able to view your address",
+    "auth_description2": "This application is not owned or operated by JoyID",
+    "auth_description3": "This application cannot transfer your assets without your authorization",
+    "disconnect_wc": "Disconnect wallet connect",
+    "disconnect_wc_description": "Are you sure you want to disconnect: <b>{{dapp}}</b>?",
+    "method_not_supported": " is not currently supported, please turn to our support for more information.",
+    "wc_gas_not_enough": "Insufficient fund to pay gas fee"
+  },
+  "device_modal": {
+    "title": "Set Device Name",
+    "edit-title": "Edit Device Name",
+    "label": "Please enter Device Name",
+    "error": "Only alphanumeric characters and spaces are allowed.",
+    "success": "Successfully set!",
+    "save": "Save",
+    "close_confirm": {
+      "title": "\uD83E\uDD14️",
+      "description": "You have unsaved edits",
+      "save_it": "Save it",
+      "do_not_save": "Don't save"
+    }
+  },
+  "username_modal": {
+    "title": "Set Account Name",
+    "edit-title": "Edit Account Name",
+    "label": "Please enter new name",
+    "error": "Only alphanumeric characters and spaces are allowed.",
+    "success": "Successfully set!",
+    "save": "Save",
+    "close_confirm": {
+      "title": "\uD83E\uDD14️",
+      "description": "You have unsaved edits",
+      "save_it": "Save it",
+      "do_not_save": "Don't save"
+    }
+  },
+  "pwa": {
+    "auto-update": "New version detected, will update automatically.",
+    "toast": {
+      "title": "Install JoyID wallet to your home screen!",
+      "desc": "Access your wallet in one-click\nSupport offline signing",
+      "dont-remind": "Don't remind me again",
+      "use-web": "Use web version",
+      "install": "Install"
+    },
+    "a2hs": "Install to home screen",
+    "ios": {
+      "title": "Install JoyID Wallet on iOS",
+      "step-1": "1. Click this at toolbar",
+      "step-2": "2. Click “Add to Home Screen”"
+    }
+  },
+  "new-key": {
+    "navbar": "Authorize via another device",
+    "title": "Use another device",
+    "desc": "Scan this QR code or open the URL from\nanother device to sign in",
+    "copy-url": "Copy URL",
+    "fingerprint": "QR code fingerprint: ",
+    "refresh": "Refresh",
+    "qrcode-expired": "The QR code\nhas expired",
+    "already-logged-in": "You have logged in to this account on the device awaiting authorization.",
+    "confirm": "OK",
+    "success-desc": "You have logged in to this account on the device awaiting authorization.",
+    "success-title": "Authorize successfully",
+    "login-title": "Generate QR code for Authorization"
+  },
+  "login": {
+    "title": "Recover account with address",
+    "enter": "Please enter your",
+    "enter_username_or_address": "JoyID CKB address",
+    "placeholder": "CKB address",
+    "errors": {
+      "invalid": "This JoyID is invalid",
+      "not-found": "Sorry, this JoyID does not exist",
+      "recover_failed": "JoyID account not found in this device"
+    },
+    "invalid_username": "Invalid username",
+    "invalid_address": "Invalid CKB address format",
+    "no_data": "JoyID account not found",
+    "next": "Continue",
+    "login": "Switch",
+    "confirm_login": "This account is already logged in.",
+    "please-signin": "Please sign in your JoyID"
+  },
+  "edit_profile": {
+    "title": "Edit profile",
+    "avatar_description": "We recommend an image of at least 800x800px.",
+    "username_field": "Username",
+    "description_field": "Bio",
+    "submit": "Submit",
+    "done": "Done",
+    "save": "Save",
+    "edit": "Edit",
+    "update_succeeded": "Update successful!",
+    "file_too_large": "File size is limited to {{size}}",
+    "wrong-image-format": "Only supports upload png, jpeg, jpg, gif, svg, webp format images for now",
+    "validate": {
+      "name": {
+        "invalid": "This Username is invalid"
+      }
+    }
+  },
+  "auth-drawer": {
+    "btn": "System authorization",
+    "title": "<span>\uD83D\uDC4B Hi~</span>{{welcome}}",
+    "welcome": "<br/>Welcome to the passwordless future",
+    "description": "Create and sign in your JoyID",
+    "footer_description": "Using biometrics recognition fingerprint/face"
+  },
+  "add-new-device": {
+    "title": "Generate New Device Key",
+    "desc": "Generate credential and use previous device to authorize it. Then, you can quickly and securely sign in this account on this device.",
+    "generate": "Generate",
+    "generated": {
+      "title": "Waiting authorizing",
+      "fingerprint": "Key fingerprint",
+      "btn": "Key Generated",
+      "desc-1": "Please proceed to authorize on your previous device.",
+      "desc-2": "Do not close this page until you have finished authorizing."
+    },
+    "finderprint": "Key Fingerprint:",
+    "current-device": "Current Device",
+    "proceed": "Please proceed to authorize on your previous device.",
+    "errors": {
+      "remote-not-online": "The previous device has been detected as offline. Please restart the authorization process."
+    }
+  },
+  "windows-not-supported": {
+    "title": "Important Notice",
+    "discontinued": "JoylD Discontinued on Windows",
+    "create-new-account": "Create new account",
+    "create-new-account-desc": "Due to Windows' limited support for Passkey technology, we <b>no longer support creating new accounts on Windows devices or add Windows devices as backups</b>. Please use other device instead.",
+    "existing-user": "For existing account",
+    "existing-user-desc": "To ensure the security of your assets, please log in to your account and <b>add additional backup devices as soon as possible</b>. You can use other devices for future logins.",
+    "thank-you": "Thank you for your\nunderstanding and cooperation.",
+    "confirm": "Confirm"
+  },
+  "add-device-modal": {
+    "title": "Add New Device",
+    "desc": "Scan from your new device and generate a key.",
+    "step_title": "Scan From New Device",
+    "warning-tilte": "Warning",
+    "warning-desc": "Please do not close this page or turn off your screen until the new device has been successfully added.",
+    "step": {
+      "1": "Open the camera on your new device to scan this QR code.",
+      "2": "Generate a key on your new device using your biometric sensor.",
+      "3": "Use your current device to authorize it."
+    }
+  },
+  "auth-button": {
+    "continue": "Continue"
+  },
+  "home": {
+    "next": "Next",
+    "login": "I already have JoyID",
+    "new": "Create New JoyID",
+    "add-other": "Use other JoyID",
+    "select": "Select the JoyID to Login",
+    "recover": "Recover my JoyID through friends"
+  },
+  "profile": {
+    "social_recovery": "Social Recovery",
+    "devices": "Devices"
+  },
+  "activity": {
+    "title": "Activity",
+    "send-nft": "Send DOBs",
+    "send-ckb": "Send CKB",
+    "receive-ckb": "Receive CKB",
+    "receive-nft": "Receive DOBs",
+    "add-device": "Add Device",
+    "delete-device": "Remove Temporary sign-in Environment",
+    "add-temp": "Add Temporary sign-in Environment",
+    "register-cota": "Register CoTA Cell",
+    "pending": "Pending",
+    "register": "Sign up",
+    "transaction": "Transaction",
+    "completed": "Completed",
+    "btc": "BTC",
+    "rgbpp_assets": "RGB++ Assets",
+    "bitcoin": {
+      "bitcoin_tx": "Bitcoin TX",
+      "isomorphic_tx": "Isomorphic TX",
+      "unlock_tx": "Unlock TX"
+    }
+  },
+  "send-nft": {
+    "title": "Send DOBs",
+    "send-to": "Send to",
+    "fee": "Fee",
+    "ckb-address": "CKB address or .bit DID",
+    "send": "Send",
+    "confirm": "Confirm",
+    "invalid_address": "Invalid CKB address format",
+    "transfer_success": "Sent successfully",
+    "errors": {
+      "send_to_self": "You cannot send a DOBs to yourself",
+      "invalid_address": "Invalid CKB address format",
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    }
+  },
+  "setting": {
+    "nostr-key": "Nostr key",
+    "a2hs": "Install to Home Screen",
+    "title": "Setting",
+    "social_recovery": "Recovery",
+    "faqs": "FAQs",
+    "activity": "Activity",
+    "devices": "Security",
+    "accounts": "Manage Accounts",
+    "edit_profile": "Profile",
+    "logout": "Logout",
+    "not_set": "Not set",
+    "my_joyid": "JoyID Card",
+    "language": "Language",
+    "coming-soon": "Coming soon",
+    "jpoints": {
+      "title": "Total Jpoints Earned",
+      "earn": "Earn"
+    }
+  },
+  "language": {
+    "title": "Language",
+    "languages": {
+      "zh-CN": "中文简体",
+      "zh-TW": "中文繁体",
+      "en": "English",
+      "de": "Deutsch (Schweiz)",
+      "fr": "Français",
+      "es": "Español",
+      "ja": "日本语",
+      "it": "Italiano",
+      "ar": "العربية"
+    }
+  },
+  "accounts": {
+    "title": "Manage Accounts",
+    "other_account": "Use other JoyID",
+    "login": "Login existing JoyID"
+  },
+  "device": {
+    "title": "Device",
+    "revoke": "Revoke",
+    "mainkey-revoke": "Revoking the first Key will be supported in future months",
+    "sync-browser": "Sync across browsers",
+    "sync-device": "Sync across devices",
+    "trusted-device": {
+      "title": "Trusted Device",
+      "desc": "Where you can log in current account with Passkey"
+    },
+    "dialog": {
+      "title": "Revoke the Key",
+      "desc": "Devices using this key for login will be automatically logged out and can't use this key for future access once it's revoked.",
+      "delete": "Revoke",
+      "cancel": "Cancel"
+    }
+  },
+  "passkey": {
+    "alert": {
+      "passkey": "Your passkey is protected by biometrics and can never be obtained by Google, iCloud, or JoyID.",
+      "none": "Save your 👉 <a>address</a> for future log-in. <b>Why?</b>"
+    },
+    "none": {
+      "type": "Non-Passkey",
+      "detail": "This key can only be used in the device's specific browser that created them. <a>Learn more</a>"
+    },
+    "apple": {
+      "type": "Passkey",
+      "detail": "This key syncs via iCloud and can be used on Apple devices signed in with the same Apple ID. <a>Learn more</a>"
+    },
+    "google": {
+      "type": "Passkey",
+      "detail": "This Passkey syncs via Google and can be used on other Android device signed in with the same Google Account. <a>Learn more</a>"
+    },
+    "custom": {
+      "type": "Passkey",
+      "detail": "This key syncs via {{provider}} and can be used on any devices signed in with the same {{provider}} account."
+    },
+    "windows-device-bound": {
+      "type": "Device-bound Passkey",
+      "detail": "This key can only be used on the device that created them. <a>Learn more</a>"
+    },
+    "apple-device-bound": {
+      "type": "Device-bound Passkey",
+      "detail": "This key can only be used on the device that created them.. <a>Learn more</a>"
+    }
+  },
+  "devices": {
+    "did": "Use DID",
+    "update-did": "Update DID",
+    "no-did": "No DID found",
+    "did-updated": "Update DID successfully",
+    "title": "Security",
+    "pending": "Pending",
+    "delete_main_key_warning": "Deleting the first registered device is not currently supported",
+    "webauthn_title": "Trusted Devices",
+    "webauthn_desc": "Sign in and manage your account with the keys below. <a>Learn more</a>",
+    "session_title": "Temporary sign-in Environment",
+    "session_desc": "Where you can sign in temporarily without biometrics",
+    "delete_account": "Logout account",
+    "delete_account_description": "Are you sure you want to logout account: <b>{{username}}</b>?",
+    "page_description": "Where you can sign in from",
+    "mobile_device": "Mobile Device",
+    "passkey_warning": "Please <b>never modify the key name</b> of Passkey, as doing so may result in a loss of access.",
+    "current_device": "Current Device",
+    "edit": "Edit",
+    "expired-at": "Expired at:",
+    "on-chain-from": "On-chain from:",
+    "delete": "Delete",
+    "logout": "Logout",
+    "google_connection": {
+      "title": "Google service is not available",
+      "desc": "Your Passkey may not be successfully synced. Please add another device to backup your account.",
+      "btn": "Understood"
+    },
+    "dialog": {
+      "title": "Delete Authorized Environment",
+      "desc": "The next time you log in in this environment, you need to restart a new sign-in",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "recover-methods": {
+    "title": "Recovery Methods",
+    "desc": "Please add at least one in case your authorized devices are all lost",
+    "passkey": {
+      "title": "Passkey",
+      "desc": "A key synced via iCloud or Google Drive"
+    },
+    "mnemonic": {
+      "title": "Secret Recovery Phrase",
+      "desc": "Enter or generate a new recovery phrase"
+    },
+    "security-key": {
+      "title": "Security Key",
+      "desc": "An external authenticator that can store a passkey."
+    },
+    "no-passkey-dialog": {
+      "title": "Add Passkey Recovery",
+      "desc": "Add a device that supports <a>passkey synchronization.</a>"
+    },
+    "enable-passkey-dialog": {
+      "title": "Recover from Passkey",
+      "desc": "You can use another device that shares the same iCloud or Google account to recover your JoyID"
+    }
+  },
+  "register": {
+    "title": "Create New JoyID",
+    "label": "Please enter your username",
+    "start": "Let’s start by choosing your",
+    "username": "JoyID username",
+    "placeholder": "Please enter your username",
+    "conditions": {
+      "alphanumeric": "Need to contain 4-16 numbers or letters",
+      "space": "Cannot contain space"
+    },
+    "next": "Continue",
+    "login": "I already have JoyID to login"
+  },
+  "no-support": {
+    "title": "JoyID is not supported in\ncurrent browser",
+    "desc": "Please try again with",
+    "link": "recommended browsers"
+  },
+  "register-success": {
+    "title": "🎉Congratulations!",
+    "desc": "Your new JoyID has been created.",
+    "address": "Address",
+    "long-press": " Please long press to save your JoyID card",
+    "or": "Or",
+    "later": "You will need this later to sign in another device",
+    "copy": "Copy to clipboard",
+    "copied": "Copied",
+    "no_account_available": "No account available",
+    "other-stuff": "You will need it later to sign in\nanother device or add social recovery.",
+    "continue": "Continue to",
+    "confirm": "Sign in",
+    "device_name": {
+      "title": "Set Device Name",
+      "desc": "You can also edit it later in app.joyid.dev"
+    }
+  },
+  "add-joyid-drawer": {
+    "title": "Log in with",
+    "login": "Log in JoyID",
+    "new": "New JoyID"
+  },
+  "webview-guide": {
+    "title": "Please open this page \nin your browser"
+  },
+  "fingerprint": {
+    "check": "Check the fingerprint"
+  },
+  "remote-auth": {
+    "title": "Proceed on your mobile device",
+    "desc": "Scan the QR code with the built-in camera app"
+  },
+  "nostr": {
+    "title": "Nostr key",
+    "pubkey": "Nostr Public key",
+    "privkey": "Nostr Private key",
+    "reveal": "Reveal private key"
+  },
+  "auth": {
+    "sign-in": "Sign in {{title}}",
+    "sign-in-desc": "<b>{{host}}</b>",
+    "signing": "You are signing for",
+    "messages": "Messages:",
+    "warning": "ou are authorizing this operation from the web",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "qrcode": "Please confirm the fingerprint\nmatches the QR code description.",
+    "generate_btc_wallet": "Generate BTC Wallet",
+    "add_btc_wallet": "Add BTC Wallet",
+    "create_btc_wallet_tips": "Before proceed, please generate your BTC wallet first",
+    "btc_wallet_generated": "BTC wallet generated! \nPlease add your wallet before proceeding. "
+  },
+  "sign-message": {
+    "sign": "Sign Request from {{title}}",
+    "warning": "ou are authorizing this operation from the web.",
+    "signing": "Your are signing for",
+    "messages": "Messages:",
+    "logged-out": "You have been logged out. Please sign in again.",
+    "sign-in": "Sign in",
+    "reject": "Reject",
+    "confirm": "Confirm",
+    "to": "To",
+    "amount": "Amount",
+    "fee": "Fee",
+    "total": "Total",
+    "upgrade-account": "The first time you send DOBs, it’s required to upgrade account. ",
+    "upgrade-now": "Upgrade now",
+    "errors": {
+      "send_to_self": "You cannot send CKB to yourself",
+      "invalid_address": "Invalid CKB address format",
+      "minimum_amount": "Depending on the recipient's address, the minimum sending amount is {{amount}} CKB",
+      "invalid_amount": "Invalid amount",
+      "insufficient_balance": "Insufficient balance",
+      "send_nft_to_self": "You cannot send DOBs to yourself",
+      "token_not_found": "The DOBs does not belong to the current address",
+      "cota_cell_not_found": "The CoTA cell not found",
+      "invalid_token_key": "Invalid token key",
+      "other_error": "The request timed out. Please try again later."
+    }
+  },
+  "qrcode-expired": {
+    "title": "QR code expired",
+    "desc": "Please scan the latest\nQR code"
+  },
+  "auth-success": {
+    "title": "🎉 Authorization successful!",
+    "goto": "Go to",
+    "btn": "JoyID Wallet"
+  },
+  "add-subkey-success": {
+    "title": "\uD83D\uDCF1New device authorized.",
+    "mobile_device": "<strong>{{device_name}}</strong>",
+    "goto": "Go to",
+    "btn": "JoyID Wallet",
+    "confirm": "Confirm"
+  },
+  "auth-subkey": {
+    "modal": {
+      "title": "Previous Device Authorization",
+      "sub-title": "Scan with build-in camera app or open the link\nbelow with the device that can sign in JoyID",
+      "copy": "Copy to clipboard",
+      "copied": "Copied successfully",
+      "desc": "Authorize New Device",
+      "completed": "Completed authorization",
+      "fingerprint": "Please confirm QR code fingerprint:"
+    },
+    "title": "<strong>Authenticate</strong> new device",
+    "description": "Do not scan unknown QR codes for authentication, otherwise you may lose your JoyID ",
+    "cancel": "Cancel",
+    "confirm": "Next",
+    "allow": "Allow this new device to",
+    "full-control": "Fully control my assets",
+    "manage-account": "Manage my account for any further actions",
+    "fingerprint": "Key fingerprint:",
+    "success": "Authorize successful!",
+    "go-back": "Go Back",
+    "no-camera-err": "No camera found",
+    "camera-auth-err": "No camera permission, please refresh the page to re-authorize",
+    "no-data-err": "No relevant data found, please rescan",
+    "fido-err": "This is a FIDO QR code, please use the build-in camera app to scan it",
+    "permission-err": "You don't have permission to authorize with this JoyID",
+    "confirm-title": "Confirm the key fingerprint",
+    "confirm-desc": "Please confirm the key fingerprint matches\nthe QR code description.",
+    "confirm-button-text": "Confirm",
+    "auth-new-device": {
+      "title": "Authorize new device",
+      "btn-1": "Authorize",
+      "btn-2": "Confirm Authorization"
+    },
+    "not-completed": "Authorization incomplete",
+    "wrong-origin-title": "Abnormal QR code",
+    "wrong-origin-desc": "Please confirm that the QR code was generated from app.joyid.dev. If it was not, do not authenticate to avoid losing your JoyID.",
+    "error_confirm": {
+      "icon": "🙁",
+      "title": "No JoyID login detected \nfor this device.",
+      "mobile_device": "<strong>{{device_name}}</strong>\n{{time}}",
+      "no_detected_device": "Please authenticate with another device, such as the device below.",
+      "confirm": "Confirm",
+      "loading": "Loading…"
+    }
+  },
+  "errors": {
+    "api": {
+      "COTA_CELL_OCCUPIED": "Your operation is too frequent. Please try again after 1-3 mins",
+      "COTA_CELL_NOT_FOUND": "Your JoyID account is being initialized. Please try again after 1-3 minutes",
+      "INVALID_AVATAR": "Invalid avatar",
+      "TOKEN_IS_SUBMITTING": "This NFT is currently being received. Please retry your operation later."
+    },
+    "confirm_button_text": "OK",
+    "unknown_error": "Unknown Error: {{message}}",
+    "not-recognized": "Oops! Due to Apple's frequency limitations, we can't complete this action right now. \n👉Please refresh the page and try again.",
+    "not-recognized-title": "⚠️ Limited Access Alert",
+    "custom-provider": "JoyID does not support registration on iOS beta or with password managers (such as 1Password, Bitwarden, Enpass, Nordpass, etc.). Please use a stable iOS version or disable your password manager",
+    "rsa-key": "Your device does not support the P256 signature algorithm, which may be due to an outdated device or BIOS setting issue."
+  },
+  "new-device": {
+    "description": "You can quickly and securely sign in next time with biometrics on this device.",
+    "title": "Add new device",
+    "heading": "\uD83D\uDC49 Two-step authentication",
+    "description-primary": "Is required for the first sign-in \non a new device.",
+    "description-secondary": "Don't worry, next time you can sign in directly.",
+    "steps": {
+      "1": "Generate new device’s key",
+      "2": "Previous Device authentication",
+      "3": "Sign in directly"
+    },
+    "step_descriptions": {
+      "1": "This key is stored in the device's chip. \nNo one can export it and no one can use it without your biometrics",
+      "2": "Authorize the new key with a previously registered device that can sign in JoyID",
+      "3": "This device is registered now! \nSign in to use JoyID in this device"
+    },
+    "authenticate": "Authorize",
+    "generated": "Generated",
+    "generate": "Generate",
+    "sign_in": "Sign In",
+    "description-waiting_the_new_device": "This may take 1-2 mins. \nDo not close and refresh the page"
+  },
+  "profile_plate": {
+    "default_description": "Mysterious person"
+  },
+  "my-joyid": {
+    "title": "JoyID Card"
+  },
+  "session-key-new": {
+    "navbar": "Sign in temporarily",
+    "title": "Sign in temporarily in this Environment",
+    "alert": "Biometrics sign-in are not supported in current browser (<a>why🤔️</a>).\nYou can continue to sign in temporarily <b>without requiring biometrics</b>.",
+    "desc": "Temporary sign-in would create a temporary private key in this browser,\n which enables you to use JoyID under\n <a>👉browser-level security</a> for a limited time.",
+    "warning": "Please start on a personal device.",
+    "next": "Sign in temporarily",
+    "dialog": {
+      "title": "Browser-level Security",
+      "desc-1": "The key used in temporary sign-in is securely stored in browser database. No one can export it once created, even JoyID.",
+      "desc-2": "But people will be able to sign any message from this device’s browser <b>without requiring biometrics</b> during the validity period."
+    }
+  },
+  "session-key-local": {
+    "title": "Temporary sign-in",
+    "desc": "Temporary sign-in key are stored securely in the\nbrowser database and no one can export\nit even JoyID.",
+    "validity": "Validity period: 7 days",
+    "dialog": {
+      "title": "Validity Period Security",
+      "desc-1": "We currently do not support setting the validity period.",
+      "desc-2": "The current default validity period is 7 days which means it will automatically expire after 7 days.",
+      "desc-3": "After expiration, you can create a new temporary sign-in in this browser."
+    },
+    "step-1": {
+      "title": "Temporary key generated ",
+      "desc": "You will be able to sign any message from this device’s browser within the validity period",
+      "btn": "Validity period: <b>7 days</b>"
+    },
+    "step-2": {
+      "title": "Previous Device Authorization",
+      "desc": "Authorize the new key with a previously registered device that can sign in JoyID",
+      "authorize": "Authorize",
+      "authorizing": "Authorizing",
+      "authorized": "Authorized",
+      "warn": "This may take 1-5 mins.\nDo not close or refresh the page"
+    },
+    "step-3": {
+      "title": "Sign in directly",
+      "desc": "This device is registered now!\nSign in to use JoyID in this device",
+      "btn": "Sign in"
+    }
+  },
+  "session-key-remote": {
+    "title": "Authenticate new environment",
+    "desc": "Do not scan unknown QR codes for authorization, otherwise you may lose your JoyID ",
+    "next": "Next",
+    "allow": "Allow this new device to",
+    "full-control": "Fully control my assets",
+    "manage-account": "Manage my account for any further actions",
+    "fingerprint": "Key fingerprint:",
+    "permission-err": "You don't have permission to authorize with this JoyID",
+    "only-webauthn-key": "Please authorize with a permanently sign-in device that can sign in JoyID with biometrics.",
+    "dialog": {
+      "title": "Please authorize with a permanently sign-in device that can sign in JoyID with biometrics."
+    }
+  },
+  "remote-auth-key": {
+    "desc": "Please check if the QR code fingerprint matches.\nPhishing QR code may lead to loss of your account",
+    "auth-new-device": "Authorize new device or environment",
+    "with-biometrics": "With biometrics required",
+    "valid-period": "Validity Period",
+    "security-level": "Security Level",
+    "hardware-level": "Hardware-level",
+    "browser-level": "Browser-level",
+    "always-valid": "Always valid",
+    "sesison-key-valid": "7 days",
+    "delete-dialog": {
+      "title": "How to delete authorized environment？",
+      "desc": "1. Open {{host}}\n2. Go to Setting > Security"
+    },
+    "browser-level-dialog": {
+      "title": "Browser-level Security",
+      "desc-1": "The key used in temporary sign-in is securely stored in browser database. No one can export it once created, even JoyID.",
+      "desc-2": "But people will be able to sign any message from this device’s browser <b>without requiring biometrics</b> during the validity period."
+    },
+    "hardware-level-dialog": {
+      "title": "Hardware-level Security",
+      "desc-1": "The key is securely stored in the device's chip.",
+      "desc-2": "The key cannot be exported or used without your biometrics. This is the best-in-class security level."
+    }
+  },
+  "not-supported": {
+    "title": "Proceed with recommend device",
+    "desc": "This browser cannot interact with JoyID.\nPlease try with a recommended device.",
+    "current-environment": "Your current environment",
+    "feedback": "If these steps don't work,\nkindly provide feedback 👉 <a>here</a>.",
+    "create": {
+      "title": "Account creation not supported in current environment.",
+      "password-manager": "Please disable <b>password manager</b> such as 1Password, Bitwarden, Enpass, etc. and then try again.",
+      "windows-hello": "Your current device doesn't support specific algorithm. If upgraded from Windows 10 or Windows 11 21H2, please <a>reset Windows Hello</a> and try again.",
+      "ios-beta": "Please use a stable version of iOS 16 or higher, or <a>use another device</a>."
+    },
+    "login": {
+      "title": "You canceled or timed out",
+      "solution": "If you don't find the desired Passkey in the list:",
+      "apple": {
+        "list-1": "Make sure you're using the <b>right iCloud account</b>.",
+        "list-2": "Ensure the Key can be synced to this environment. Check under 'Security/Devices'.",
+        "list-3": "If your account was created in non-Safari browser on macOS 13 or earlier, the account cannot be synced."
+      },
+      "non-apple": {
+        "list-1": "Make sure you're using the <b>right Google account</b>.",
+        "list-2": "Ensure the Key can be synced to this environment. Check under 'Security/Devices'."
+      }
+    },
+    "wallet-not-found": {
+      "title": "Wallet not found",
+      "solution": "This key might have been revoked. Please <b>select another key</b> to proceed."
+    },
+    "solution": {
+      "title": "Solution",
+      "android": {
+        "os": "Your Android version must be 7.0 or higher, or <a>use another device</a>.",
+        "browser": "Please use a supported browser like Chrome, Edge, or Brave.",
+        "unsupported": {
+          "list-0": "Sign up with <b>Chrome</b> — please note, <b>Kiwi</b> and <b>Mises</b> won't work as they don't support passkey",
+          "list-1": "Ensure your phone can use <b>Google services.</b>",
+          "list-2": "Make sure <b>screen lock<b/> is enabled.",
+          "list-3": "Ensure <a>no second space</a> is activated on MIUI."
+        }
+      },
+      "ios": {
+        "os": "Please upgrade to iOS version 16 or higher, or <a>use another device</a>.",
+        "browser": "Please use a supported browser like Safari, Chrome, Edge, or Brave.",
+        "unsupported": "Please restart your browser and try again, or <a>use another device.</a>"
+      },
+      "macos": {
+        "os": "Please upgrade your macOS to Catalina or a higher version with TouchID, or <a>use another device</a>.",
+        "browser": "Please use a supported browser like Safari, Chrome, Edge, or Brave.",
+        "unsupported": "Ensure your device can use TouchID, otherwise please <a>use another device.</a>"
+      },
+      "windows": {
+        "os": "Please upgrade to Windows 11 22H2 or a later version, or <a>use another device</a>.",
+        "browser": "Please use a supported browser like Safari, Chrome, Edge, or Brave.",
+        "unsupported": "Please ensure <hello>Windows Hello</hello> is properly set up."
+      },
+      "other-os": {
+        "os": "This operating systemis currently not supported. Please <a>use another device</a>."
+      }
+    },
+    "more-info": "👉 More info about supported browsers.",
+    "item-1": "<b>Andriod 10+</b> (with Google service)",
+    "item-2": "<b>iOS 14.5+</b> (with iCloud login)",
+    "item-3": "<b>Windows 11 22H2</b> (with Windows Hello)",
+    "item-4": "<b>macOS Catalina+</b> (with Touch ID)",
+    "scan": "Scan QR code with build-in camera app",
+    "recommended-device": "Please try with <a>supported environment.</a>",
+    "browser": "JoyID is not supported in current environment",
+    "windows-1": "Please enable <a>Windows Hello</a> before proceeding.",
+    "windows-2": "After that, you can sign in using your face, fingerprint, or PIN.",
+    "set-up-windows-hello": "Set up Windows Hello"
+  },
+  "session-key-signup": {
+    "navbar": "New Device Detected",
+    "title": "🎉Congratulations!",
+    "desc": "Your new JoyID has been created",
+    "next": "Sign in",
+    "continue": "Continue to"
+  },
+  "session-key-success": {
+    "title": "New environment has been authorized.",
+    "goto": "Go to",
+    "btn": "JoyID App",
+    "confirm": "Confirm"
+  },
+  "joyid-card": {
+    "tips": "Please long press to save your JoyID card",
+    "or": "Or",
+    "copy": "Copy to clipboard",
+    "copied": "Copied"
+  },
+  "guide_move_mobile": {
+    "title": "Proceed with your mobile device",
+    "description": "Scan QR code with mobile build-in camera app to redirect to <a>app.joyid.dev</a>",
+    "footer_description": "Or you can also type <a>app.joyid.dev</a> directly in your mobile browser"
+  },
+  "cota_not_ready": {
+    "title": "Account Upgrade Required",
+    "upgrade": "Upgrade",
+    "desc": "The first time you add a new device or send DOBs, it’s required to upgrade account first which will create an on-chain storage for your account information.",
+    "upgrading": "Upgrading account",
+    "upgraded": "Account upgraded",
+    "upgrading_desc": "Do not close and refresh the page\n It may take up to 3 minutes.",
+    "upgrade_success": "Account upgrade completed!",
+    "ready-for-subkey": "Sent successfully",
+    "next": "Next"
+  },
+  "upgrade-account": {
+    "account-upgrade": "Account Upgrade Required",
+    "account-upgrading": "Account upgrading",
+    "desc": "The first time you add a new device, or transfer DOBs, it’s required to upgrade account which will create an on-chain storage for your account and assets information.",
+    "upgrade": "Upgrade",
+    "confirm": "Confirm",
+    "free": "Time-limited free",
+    "upgrade-completed": "Upgrade completed",
+    "upgrade-desc": "It may take up to <b>3 minutes</b>.\nPlease try again later to proceed the operation. ",
+    "payment": {
+      "select-payment": "Select Payment",
+      "total": "Total",
+      "select-token": "Select Token",
+      "balance": "Balance:",
+      "pay": "Pay",
+      "not-enough": "Insufficient balance to pay the upgrade fee"
+    },
+    "box1": {
+      "header": "Operation",
+      "item1": "",
+      "item2": "CotA DOBs receive"
+    },
+    "box2": {
+      "header": "Security",
+      "item1": "Passkey recovery"
+    },
+    "box3": {
+      "header": "Operation",
+      "item1": "",
+      "item2": "DOBs receive/send/mint"
+    },
+    "box4": {
+      "header": "Security",
+      "item1": "Passkey recovery",
+      "item2": "Multi-device backup",
+      "item3": "Social recovery",
+      "item4": "Keystore recovery"
+    }
+  },
+  "receive": {
+    "select-network": "Select Network",
+    "receive": "Receive",
+    "receive-asset": "Receive Assets on ",
+    "show-address": "Show Address",
+    "ckb-note": "⚠️ Note",
+    "ckb-desc": "Some wallets and exchanges may not accept this address. For smooth deposits, use <a>imToken</a>, <b>Neuron</b>, or <c>Portal wallet</c>.",
+    "btc-desc": "Only supports BTC/RGB++ Assets and does not support assets such as Ordinals, BRC20, ARC20 etc.",
+    "bitcoin_title": "Bitcoin Ecosystem",
+    "evm_title": "EVM Ecosystem",
+    "more": "More",
+    "layer1": "Layer1",
+    "layer2": "Layer2"
+  },
+  "connect-with": {
+    "authorize": {
+      "title": "Authorize new device",
+      "step-1": "1. Open JoyID on another device and go to Setting > Security",
+      "step-2": "2. Click + button to add this device"
+    },
+    "slogan": "Your Web3 account for the future",
+    "fast-register": "it takes as little as 10s",
+    "create-account": "Create New",
+    "connect-with": "Sign up",
+    "use-other": "Use another JoyID",
+    "login-with": "Login with",
+    "login-with-passkey": "Login with Passkey",
+    "login-passkey": "Passkey",
+    "login-device": "Another Device",
+    "google": "Google service",
+    "icloud": "iCloud",
+    "with-icloud": "With iCloud",
+    "nervos-address": "CKB Address",
+    "address": "I Know My CKB Address",
+    "other-login-options": "Other login options",
+    "more-options": "I already have an account",
+    "recover-with-address": "Recover account with address",
+    "other-passkey-account": "Passkey",
+    "checkbox": {
+      "enable": "Passkey backup",
+      "google": "(Google Service)",
+      "icloud": "(iCloud)",
+      "not-support": "(not supported)",
+      "disable-passkey": {
+        "title": "Warning",
+        "desc": "Once you disable the Passkey backup, risking <b>permanent account loss</b> if you:",
+        "list-1": "Lost your device.",
+        "list-2": "Turn off your device screen lock.",
+        "summary": "High recommended to add extra devices if you continue without Passkey backup.",
+        "btn": "I understood"
+      },
+      "question": {
+        "btn": "OK",
+        "more-details": "More details",
+        "not-supported": "Passkey is not supported on the current device.",
+        "always-enabled": "Your private keys are automatically encrypted and synced across devices with {{service}}.",
+        "optional": "Your private keys are automatically encrypted and synced across devices with {{service}}."
+      }
+    },
+    "sign-in": {
+      "title": "Recover account with address",
+      "btn": "Process to recover",
+      "another-passkey": {
+        "title": "Please choose another passkey",
+        "desc": "The App is not requesting this account. Please choose another passkey to sign in again.",
+        "btn": "Choose again"
+      }
+    },
+    "recovery": {
+      "recovery": "Login with Passkey",
+      "title": "Login with Passkey",
+      "btn-1": "Select a Passkey",
+      "btn-2": "Confirm authentication"
+    },
+    "wallet-not-found": {
+      "title": "Wallet not found",
+      "desc": "There is no corresponding wallet for this key. Please return to the list and select another key.",
+      "btn": "Reselect"
+    },
+    "create-wallet": {
+      "title": " Create account",
+      "btn-1": "Authenticate",
+      "btn-2": "Confirm authentication"
+    },
+    "auth-with-new-device": {
+      "title": "Authorize new device",
+      "btn-1": "Authorize",
+      "btn-2": "Confirm authorization"
+    },
+    "prepare-device": {
+      "title": "Prepare device",
+      "btn-1": "Authorize",
+      "btn-2": "Confirm authorization"
+    }
+  },
+  "wallet-created": {
+    "title": "🎉 Wallet Created!",
+    "sub-title": "You can now use your biometrics to manage your wallet",
+    "wallet-address": "Wallet Address",
+    "confirm": "Confirm",
+    "important": "💡Important",
+    "note-1": "JoyID is in <b>public beta</b> and still under development.",
+    "note-2": "Your account is <b>non-custodial, secured by hardware</b>.",
+    "note-3": "❗❗ Please set up multi-device login or recovery methods to <b>protect your account</b> from device lost.",
+    "note-3-failed": "❗❗ <b>Passkey is not enabled</b> on current device. Please set up multi-device login or recovery methods to <b>protect your account</b> from device lost.",
+    "note-1-passkey": "JoyID is in <b>public beta</b> and still under development.",
+    "note-2-passkey": "Your account is <b>non-custodial, secured by hardware</b>, and <b>can be recovered</b> with AppleID / Google Account"
+  },
+  "name_new_device": {
+    "title": "I already have JoyID",
+    "heading": "Sign in permanently on \nthis Device",
+    "description": {
+      "1": "Detected that this is your first time \nsigning in this JoyID account on this device.",
+      "2": "It's required to add it as a new device first. ",
+      "3": "Next time, you can quickly and securely sign in with biometrics on this device."
+    },
+    "check_chip_level": "\uD83D\uDC49Check the chip-level security.",
+    "continue_to": "Continue to",
+    "add_new_device": "Add New Device",
+    "check_chip_level_dialog": {
+      "title": "Chip-level Security",
+      "description": {
+        "1": "Chip-level security stores your permanently sign-in key in your device's chip. ",
+        "2": "No one can export it or use it without your biometrics. \nThis is the highest security level."
+      }
+    }
+  },
+  "claim": {
+    "claim": "Claim Test Token",
+    "claiming": "Claiming",
+    "free-mint": "Free mint NFT"
+  },
+  "wallet": {
+    "select-tokens": "Select Tokens to View",
+    "test-token": " (Test Tokens)",
+    "btc-wallet": {
+      "title": "Welcome to use BTC wallet! ",
+      "desc": "Before we begin, please generate\nyour BTC wallet.",
+      "btn": "Generate BTC wallet"
+    },
+    "btc-wallet-confirm": {
+      "title": "Add BTC Wallet",
+      "desc": " BTC wallet successfully generated!\nNow let's add BTC wallet .",
+      "btn": "Add BTC wallet"
+    },
+    "manage-token": {
+      "title": "Manage Tokens",
+      "my-tokens": "My tokens",
+      "top-tokens": "Top tokens",
+      "token-shown": "Token Shown",
+      "token-hidden": "Token Hidden",
+      "no-token": "No tokens",
+      "import-token": "Import Token",
+      "search": "Search Token"
+    },
+    "copy": "Copy",
+    "list": "List",
+    "trade": "Trade",
+    "no-owned-token": "You don't own any {{token}} yet",
+    "address-required": "Address is required",
+    "amount-required": "Amount is required",
+    "coming-soon": "Coming soon",
+    "xudt": {
+      "insufficient-free-ckb": "Insufficient <a>Available CKB</a>. You need at least {{amount}} available CKB for fee and change.",
+      "minimum_ckb": "Depending on the recipient's address, the minimum free CKB requirement is {{amount}}",
+      "max_is_not_allowed": "Send all inscription is currently not supported",
+      "duplicated": "Duplicated name",
+      "unrebased": "Unrebased",
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    },
+    "rgbpp": {
+      "bitcoin": "Bitcoin",
+      "nervos_ckb": "Nervos CKB"
+    },
+    "ckb": {
+      "navbar": "CKB",
+      "toast": "Shown here are transferable CKB balances. There are other {{amount}} CKB occupied under the account.",
+      "from": "From: ",
+      "to": "To: ",
+      "free": "Free",
+      "available": "Available",
+      "occupied": "Occupied",
+      "insc-package": "Inscription Package",
+      "fee": "Fee"
+    },
+    "eth": {
+      "navbar": "ETH",
+      "to_address_placeholder": "Recipient address",
+      "select_address": "Select address",
+      "errors": {
+        "send_to_self": "You cannot send ETH to your own address",
+        "invalid_address": "Invalid address or DID format",
+        "did_not_found": "'{{ did }}' is not associated with any Ethereum address",
+        "select_did": "Please select an address",
+        "minimum_amount": "The minimum sending amount is {{amount}} CKB, depending on the recipient's address",
+        "invalid_amount": "Invalid amount",
+        "insufficient_balance": "Insufficient balance",
+        "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+      }
+    },
+    "btc": {
+      "manage": {
+        "title": "Set default address",
+        "desc": "We support the address formats below.\nYou can set default address used in JoyID wallet."
+      },
+      "to_address_placeholder": "Bitcoin Address or .bit DID",
+      "available": "Available balance",
+      "unconfirmed": "Unconfirmed",
+      "dust": "Dust",
+      "available_desc": "The sum of UTXOs you can use for transactions",
+      "unconfirmed_desc": "UXTOs locked in unconfirmed transactions",
+      "dust_desc": "Small UTXOs may be locked for BTC based coins or NFTs"
+    },
+    "usdc": {
+      "navbar": "USDC",
+      "to_address_placeholder": "Recipient address"
+    },
+    "to_address_placeholder": "CKB address or .bit DID",
+    "transfer_success": "Sent successfully",
+    "net_worth": "Net Worth",
+    "send": "Send",
+    "send-ckb": "Send CKB",
+    "receive": "Receive",
+    "red-packet": "Red Packet",
+    "swap": "Swap",
+    "scan": "Scan",
+    "manage": "Manage",
+    "token": "Token",
+    "tokens": "Tokens",
+    "coins": "Coins",
+    "nft": "Collectible",
+    "dobs": "DOBs",
+    "no_dobs_yet": "\uD83D\uDE2D No DOBs yet",
+    "no_collectible_yet": "\uD83D\uDE2D No collectible yet",
+    "copied": "Copied successfully",
+    "send_ckb": "Send CKB",
+    "send_to": "Send to",
+    "max": "Max: {{amount}} {{unit}}",
+    "amount": "Amount",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "from": "From",
+    "to": "To",
+    "pending": "Pending",
+    "no_data": "No Data",
+    "fee": "Network Fee",
+    "gas_fee": "Gas Fee",
+    "total": "Total",
+    "receive_ckb": "Receive",
+    "only_ckb": "Please notice that only assets from\n<hl>Nervos CKB or Alpha</hl> chains should be deposited to this\naddress. Deposits from other blockchains may result in permanent loss of assets",
+    "update_tx_fee": "This transaction will replace the original with a higher gas fee.",
+    "activity": "Activity",
+    "orders": "Orders",
+    "unlimited": "Unlimited",
+    "limited": "Limited",
+    "unknown": "Unknown",
+    "cancel": "Cancel",
+    "cancel_title": "❌Cancel",
+    "speed_up": "Speed up",
+    "speed_up_title": "🚀Speed up",
+    "loading_balance": "Loading balance...",
+    "tx-on-chain-later": "This transaction is nearly complete and cannot be canceled or sped up.",
+    "not_enough_dialog": {
+      "title": "The remaining balance is too low <b>(less than 63 CKB)</b> to send a transaction.",
+      "desc": "Do you want to send all <b>{{amount}}</b> CKB?",
+      "send_all": "Send All"
+    },
+    "errors": {
+      "send_to_self": "You cannot send asset to your own address",
+      "invalid_address": "Invalid CKB address format",
+      "invalid_btc_address": "Invalid BTC address format",
+      "minimum_amount": "Depending on the recipient's address, the minimum sending amount is {{amount}} CKB",
+      "invalid_amount": "Invalid amount",
+      "insufficient_utxo": "Our wallet cannot construct transactions with output UTXOs smaller than 0.0001 BTC. Please adjust the transaction amount or sending them all.",
+      "insufficient_balance": "Insufficient balance",
+      "btc-min-send-amount": "The amount must be at least {{min}} BTC",
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    }
+  },
+  "iframe-provider": {
+    "title": "Confirm",
+    "signing": "You are signing for",
+    "messages": "Messages:",
+    "typed-data": "Typed Data:",
+    "btn": "Confirm"
+  },
+  "nft-detail": {
+    "id": "ID",
+    "no_description": "Nothing yet",
+    "unlimited": "Unlimited",
+    "limited": "Limited {{limited_count}}",
+    "img_cannot_loaded": "The image cannot be loaded.",
+    "play": "Play",
+    "send": "Send",
+    "three_d_model_load_fail": "The model loading failed.",
+    "only_safari_ar": "Your device is supported enter the AR mode currently",
+    "cluster": "Cluster",
+    "type": "Type",
+    "size": "Occupied",
+    "spore_nft": "Spore DOBs",
+    "dob-0": "DOB/0",
+    "ckb_size_description": "The amount of CKByte occupied on-chain, redeemable upon melt",
+    "fallback_cluster_name": "<No Cluster>",
+    "list": "List",
+    "buy": "Buy",
+    "price": "Price: ",
+    "floor_price": "Floor Price: ",
+    "dna": "DNA",
+    "traits": "Traits"
+  },
+  "quest": {
+    "connect-wallet": "Connect Wallet",
+    "jpoints": "JPoints",
+    "joy-quest": "JoyQuest loyalty points",
+    "banner-1": "JoyID Exploration Odyssey",
+    "banner-2": "Use Blockchain, Earn Rewards",
+    "banner-3": "The JoyID Points(JPoints) are a very important part of JoyID ecosystem, ",
+    "banner-4": "they serve a key goal to including our community in the future success of JoyID protocol.",
+    "banner-5": "It's a program designed to make your wallet experience more fun and rewarding.",
+    "banner-6": "More quests will be revealed periodically on this page.",
+    "banner-7": "To maximize your points and rewards, make sure to visit this page regularly.",
+    "task-quest": "Quest",
+    "task-daily": "Daily rewards",
+    "copy-link": "Copy invite link",
+    "claim": "Claim",
+    "claimed": "Claimed",
+    "copied": "Copied successfully",
+    "claim-success": "Claim Successfully",
+    "claim-fail": "Fail to Claim",
+    "already-claimed": "Already claimed",
+    "mint-nft": "Please make sure to connect your JoyID Wallet to Galxe via WalletConnect",
+    "goto-galxe": "Go to Galxe",
+    "coming-soon": "Coming soon",
+    "copy-galxe": "URL Copied. Please open Galxe in browser",
+    "goto-connect": "Please connect your JoyID first",
+    "not-eligible": "Not Eligible",
+    "quest-guide": "Quest guide",
+    "invitation-error": "Insufficient number of invitations",
+    "goal": "Your points are higher than {{percent}}% of users.",
+    "daily-tips": "Daily tasks will refresh at 24:00 UTC+0 each day, with <b>{{hour}} hours {{minute}} minutes</b> left until the next refresh.",
+    "claim-now": "Claim now",
+    "quest-connection": {
+      "name": "Quest 1",
+      "point": "50",
+      "title": "Welcome to JoyID 😊",
+      "keyword": "Create and connect wallet",
+      "description": " and enjoy your welcome JPoints."
+    },
+    "quest-pwa": {
+      "name": "Quest 2",
+      "point": "100",
+      "title": "Install JoyID to Home Screen",
+      "description": "Please install JoyID Wallet app on your mobile, and claim JPoints in the app."
+    },
+    "quest-deposit": {
+      "name": "Quest 3",
+      "point": "300",
+      "title": "Deposit into JoyID",
+      "description": "Use biometrics to manage crypto assets",
+      "sub-desc-1": "The total balance(Native token/USDT/USDC) in your wallet exceeds <b>$5</b>.",
+      "sub-desc-2": "Current balance: "
+    },
+    "quest-invitation": {
+      "name": "Quest 4",
+      "point": "400",
+      "title": "Invite Friends",
+      "description": "Earn JPoints by inviting your friends to create a wallet using your link.",
+      "invited-count": "You have invited <b>{{count}}</b> friends",
+      "invited": "<b>{{count}}</b> Invited"
+    },
+    "quest-huehub": {
+      "name": "Quest 5",
+      "point": "50",
+      "title": "Experience the first RGB++ DEX—HueHub",
+      "description": "<b>HueHub</b> is the first DEX based on the RGB++ protocol, currently in the Alpha testing phase. Welcome to experience it",
+      "huehub-link": "https://huehub.xyz/"
+    },
+    "quest-omiga": {
+      "name": "Quest 6",
+      "point": "50",
+      "title": "Experience the RGB++ Layer2 DEX—Omiga",
+      "description": "<b>Omiga</b> is the RGB++ Layer2 DEX based on the RGB++ protocol, currently in the Alpha testing phase. Welcome to experience it.",
+      "omiga-link": "https://omiga.io/"
+    },
+    "quest-smart-pass": {
+      "name": "Quest 7",
+      "point": "50",
+      "title": "Claim Smart Pass",
+      "sub-desc-1": "Get your Smart Pass on <b>Smart Pass</b> website",
+      "sub-desc-2": "Go to <b>Smart Pass Perks</b>, click JoyID quest, jump back with the pass token",
+      "sub-desc-3": "Go back Smart Pass Perks to claim 1500 Smart Layer Points!",
+      "smart-pass-link": "https://www.smartlayer.network",
+      "smart-pass-parks-link": "https://www.smartlayer.network/pass?tab=perk",
+      "signed-token-error": "Invalid Smart Pass signedToken",
+      "smart-pass-title": "1,500 points will be awarded",
+      "smart-pass-desc": "1,500 points will be awarded for SmartLayer Pass holders once JoyID Wallet has been connected",
+      "smart-pass-points-awarded": "1,500 Smart Pass Points has been awarded",
+      "smart-pass-jpoints": "You are qualified to claim 50 extral JPoints now!"
+    },
+    "daily-1": {
+      "name": "Reward 1",
+      "point": "5",
+      "title": "Daily free reward",
+      "description": "Claim your daily 5 JPoints reward"
+    },
+    "daily-2": {
+      "name": "Reward 2",
+      "point": "20",
+      "title": "Balance Reward",
+      "sub-desc-1": "Have at least <b>$5</b> in your wallet balance.",
+      "sub-desc-2": "Current balance: "
+    },
+    "daily-3": {
+      "name": "Reward 3",
+      "point": "20",
+      "title": "Transaction reward",
+      "description": "The JoyID account must either <b>send</b> or <b>receive</b> at least one token within the last 24 hours."
+    }
+  },
+  "mini-app": {
+    "cancel": "Canceled",
+    "confirm": "Confirmed",
+    "operation-finish": "Operation completed, please jump back to telegram miniapp",
+    "back-to-tg": "Back To Telegram"
+  },
+  "404": {
+    "title": "Whoops!",
+    "desc": "we couldn’t find the page you\nwere looking for",
+    "goto": "Go to",
+    "btn": "JoyID Wallet"
+  },
+  "upgrade-warning": {
+    "title": "🚨 Warning",
+    "desc": "Losing this device, removing PIN or deleting the passkey in the system may result in the loss of your assets. Please add another device or set up a recovery method to safeguard your account now!",
+    "btn": "Set Now"
+  },
+  "xudt-market": {
+    "buy": "Buy",
+    "pay": "Pay",
+    "pay_total": "Pay Total",
+    "cancel_order_dialog_title": "Cancel this order will",
+    "unlock": "Unlock",
+    "service-fee": "Service Fee",
+    "price": "Price",
+    "network-fee": "Network Fee",
+    "package-fee": "Package Fee",
+    "coins": "Coins",
+    "unit-price": "Unit Price",
+    "amount": "Amount",
+    "total-price": "Total Price",
+    "sell": "Sell",
+    "floor-price": "Floor Price:  {{amount}} {{unit}}",
+    "max": "Max: {{amount}} {{unit}}",
+    "buy-order": "Confirm purchase",
+    "list": "List",
+    "cancel-order": "Cancel Order",
+    "cancel": "Cancel",
+    "free": "Time limited free",
+    "sent-success": "Transaction sent successfully",
+    "next": "Next",
+    "confirm": "Confirm",
+    "list-package": "List Package",
+    "list-dialog": {
+      "title": "List this order will",
+      "lock": "Lock",
+      "inscriptions": "Coins",
+      "network-fee": "Network Fee",
+      "service-fee": "Service Fee",
+      "time-limited": "Time limited free",
+      "pay": "Pay",
+      "package-fee": "Package Fee",
+      "package": "{{amount}} CKB(refundable)",
+      "btn": "Confirm"
+    },
+    "errors": {
+      "insufficient-ckb": "Insufficient CKB. Please go to <a>deposit more</a>.",
+      "insufficient-ckb-balance": "Insufficient CKB available balance",
+      "insufficient-balance": "Insufficient balance.",
+      "invalid_amount": "Invalid amount",
+      "invalid_price": "Invalid price",
+      "price-required": "Price is required",
+      "amount-required": "Amount is required",
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    },
+    "trusted_warning": {
+      "title": "\uD83D\uDEA8 Warning",
+      "description": "This is an unverified coin. Review it carefully to ensure it's what you want to buy."
+    }
+  },
+  "bottom-nav-bar": {
+    "wallet": "Wallet",
+    "market": "Market"
+  },
+  "market": {
+    "coming-soon": "<icon>⚒\uFE0F</icon>\nComing soon",
+    "name": "Name/Vol.",
+    "price": "Price",
+    "24h-percentage": "24hr %",
+    "list_end": "\uD83D\uDE02 It's the end",
+    "no-data": "\uD83D\uDE22 No Data",
+    "coins":  "Coins",
+    "collectible": "Collectible",
+    "dobs": "DOBs"
+  },
+  "market_detail": {
+    "market": "Market",
+    "my_orders": "My orders",
+    "24h_volume": "24h Volume",
+    "market_cap": "Market cap",
+    "holders": "Holders",
+    "count_transactions": "{{count}} transactions",
+    "floor_price": "Floor price",
+    "detail": "Detail",
+    "buy": "Buy",
+    "buying": "Buying",
+    "sell": "Sell",
+    "cancel": "Cancel",
+    "no-owned-token": "You don't own any {{token}} yet",
+    "unit_price": "Unit Price",
+    "total_price": "Total Price",
+    "list_end": "\uD83D\uDE02 It's the end",
+    "no-data": "\uD83D\uDE22 No Data",
+    "listing": "Listing",
+    "trade_history": "Trade History",
+    "canceling": "Canceling",
+    "time": "Time",
+    "total": "Total"
+  },
+  "market_coin_detail_modal": {
+    "title": "Detail",
+    "coin_id": "Coin ID",
+    "type_id": "Type ID",
+    "deployed_by": "Deployed BY",
+    "full_name":  "Full Name",
+    "total_supply": "Total Supply",
+    "deployed":  "Deployed",
+    "decimal": "Decimal"
+  },
+  "market_all_my_orders": {
+    "title": "All my orders",
+    "cancel": "Cancel",
+    "open_orders": "Open orders",
+    "trade_history": "Trade history",
+    "list_end": "\uD83D\uDE02 It's the end",
+    "no-data": "\uD83D\uDE22 No Data",
+    "price": "Price",
+    "coin": "Coin",
+    "collectible": "Collectible",
+    "canceling": "Canceling",
+    "time": "Time",
+    "coins": "Coins",
+    "dobs": "DOBs"
+  },
+  "list_nft": {
+    "title": "List",
+    "subtitle": "Sell",
+    "notice_title": "\uD83D\uDD14 Notice",
+    "notice_description": "When selling this DOBs, the {{size}} Bytes of on-chain storage occupied by it will also be transferred to the buyer along with the DOBs.",
+    "price": "Price",
+    "floor_price": "Floor Price: ",
+    "token_value_warning": "This DOBs comes with <hl>{{ price }}</hl> of inherent value, and selling it below this value would result in a <hl>loss</hl> for you.",
+    "confirm_title": "List this order will",
+    "confirm": "Confirm",
+    "lock": "Lock",
+    "package_fee": "Package Fee",
+    "pay_title": "Pay",
+    "service_fee": "Service Fee",
+    "network_fee": "Network Fee",
+    "time_limit_free": "Time limited free",
+    "sent-success": "Transaction sent successfully",
+    "package": "{{amount}} CKB(refundable)",
+    "errors": {
+      "price-required": "Price is required",
+      "invalid_price": "Invalid price",
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one.",
+      "insufficient_available_ckb": "Insufficient available CKB to pay the fee"
+    }
+  },
+  "cancel_nft": {
+    "sent-success": "Transaction sent successfully",
+    "errors": {
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    }
+  },
+  "buy_nft": {
+    "title": "Confirm purchase",
+    "subtitle": "Buy",
+    "seller_title": "Pay to seller",
+    "pay_title": "Pay Total",
+    "price": "Price",
+    "service_fee": "Service Fee",
+    "network_fee": "Network Fee",
+    "time_limit_free": "Time limited free",
+    "confirm": "Confirm",
+    "sent-success": "Transaction sent successfully",
+    "trusted_warning": {
+      "title": "\uD83D\uDEA8 Warning",
+      "description": "This is an unverified DOBs. Review it carefully to ensure it’s what you want to buy."
+    },
+    "errors": {
+      "wait-for-confirmation": "Please wait for the previous transaction to complete before initiating the next one."
+    }
+  },
+  "nft_order_list": {
+    "no-data": "\uD83D\uDCC2\nNo order",
+    "list_end": "\uD83D\uDE02 It's the end",
+    "my_order": "My Order"
+  },
+  "nft_order_history_list": {
+    "no-data": "\uD83D\uDCC2\nNo order",
+    "list_end": "\uD83D\uDE02 It's the end",
+    "buying": "Buying",
+    "listing": "Listing"
+  },
+  "send-rgbpp-to-btc": {
+    "title": "Send",
+    "coming-soon": {
+      "title": "Ready to bring assets\nback to Bitcoin L1?",
+      "desc": "Coming very soon!"
+    }
+  },
+  "btc_fee_rate": {
+    "fee_rate": "Fee Rate",
+    "fast": "Fast",
+    "standard": "Standard",
+    "slow": "Slow",
+    "unit": "Sat/vB",
+    "custom": "Custom",
+    "set_fee_rate": "Set Fee Rate",
+    "confirm": "Confirm",
+    "fee_rate_too_low": "The fee rate should be at least {{feeRate}} Sat/vB. Low fee may cause pending confirmation on the transaction",
+    "fee_rate_is_required": "Fee rate is required"
+  },
+  "send_rgb_pp": {
+    "title": "Send",
+    "send_to": "Send to",
+    "amount": "Amount",
+    "max": "Max: {{amount}} {{unit}}",
+    "send": "Send",
+    "l1_send_to_placeholder": "Bitcoin address",
+    "l2_send_to_placeholder": "CKB address",
+    "insufficient_balance": "Insufficient balance",
+    "insufficient_utxo": "Insufficient BTC available balance to pay the fee",
+    "invalid_amount": "Invalid amount",
+    "amount_required": "Amount is required",
+    "address_required": "Address is required",
+    "invalid_btc_address":"Invalid BTC address format",
+    "invalid_ckb_address":"Invalid CKB address format",
+    "select_option": {
+      "l1": "<icon /> Bitcoin L1",
+      "l2": "<icon /> Bitcoin L2 <comment>(CKB)</comment>"
+    },
+    "l1": {
+      "notice": {
+        "title": "\uD83D\uDD14 Notice",
+        "description": "<error>❌ 3rd party wallet has not supported yet.</error>Please <b>transfer to a BTC wallet supporting RGB++ assets like JoyID.</b> Otherwise, your assets may not display, and there's even a risk of loss."
+      }
+    },
+    "l2": {
+      "notice": {
+        "title": "\uD83D\uDD14 Notice",
+        "description": "Please <b>transfer to a CKB wallet supporting RGB++ assets</b> like JoyID. Otherwise, your assets may not display, and there's even a risk of loss."
+      }
+    }
+  },
+  "send_rgb_pp_confirm_dialog": {
+    "confirm": "Confirm",
+    "total": "Total",
+    "fee": "Fee",
+    "amount": "Amount",
+    "from": "From",
+    "to": "To",
+    "submitted_dialog": {
+      "title": "Transaction submitted",
+      "description": "These binding transactions may take {{ minute }} mins to finalize",
+      "track_status": "Track status"
+    }
+  },
+  "dotbit": {
+    "record_empty": "No record",
+    "load_failed": "This DID is not registered"
+  },
+  "send-rgbpp-dob": {
+    "title": "Send",
+    "notice": {
+      "title": "\uD83D\uDD14 Notice",
+      "description": "<error>❌ 3rd party wallet has not supported yet.</error><p>Please <b>transfer to a BTC wallet supporting RGB++ assets like JoyID.</b> Otherwise, your assets may not display, and there's even a risk of loss.</p>"
+    },
+    "btc_address_placeholder": "Bitcoin address",
+    "address-required": "Address is required",
+    "send_to": "Send to",
+    "fee_rate": "Fee Rate",
+    "confirm": "Confirm",
+    "errors": {
+      "error": "Error",
+      "cell_not_found": "The cell not found"
+    }
+  }
+}
