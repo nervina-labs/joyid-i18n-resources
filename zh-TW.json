@@ -36,7 +36,7 @@
     "next": "下一步",
     "placeholder": "請輸入代幣合約地址",
     "errors": {
-      "invalid-address": "無效的位址",
+      "invalid-address": "無效的地址",
       "duplicated": "您已新增此代幣",
       "ca-required": "請輸入代幣地址後再進行下一步"
     },
@@ -93,7 +93,7 @@
       "list-1": "幫助您將法幣兌換承加密貨幣",
       "list-2": "一鍵兌換不同區塊鏈上的資產",
       "summary": "此服務由 <a>{{ url }}</a> 提供",
-      "btn": "複製位址進入 Swap"
+      "btn": "複製地址進入 Swap"
     }
   },
 "copier": {
@@ -131,7 +131,7 @@
     "user_reject": "使用者已拒絕簽署",
     "chain_not_supported": "不支援該區塊鏈",
     "connect-joyid": "請求連接您的 JoyID 錢包",
-    "auth_description1": "該應用程式將授權存取您的錢包位址",
+    "auth_description1": "該應用程式將授權存取您的錢包地址",
     "auth_description2": "JoyID 並非該應用程式的服務提供者",
     "auth_description3": "若未經授權，該應用程式無法轉移您的資產",
     "disconnect_wc": "斷開 Wallet Connect",
@@ -198,17 +198,17 @@
     "login-title": "產生二維碼以進行授權"
   },
 "login": {
-    "title": "透過 CKB 位址登入帳號",
+    "title": "透過 CKB 地址登入帳號",
     "enter": "請輸入您的",
-    "enter_username_or_address": "JoyID CKB 位址",
-    "placeholder": "CKB 位址",
+    "enter_username_or_address": "JoyID CKB 地址",
+    "placeholder": "CKB 地址",
     "errors": {
-      "invalid": "此位址無效，請檢查後重試",
-      "not-found": "該位址不存在，請檢查後重試",
+      "invalid": "此地址無效，請檢查後重試",
+      "not-found": "該地址不存在，請檢查後重試",
       "recover_failed": "目前裝置未找到 JoyID 帳號"
     },
     "invalid_username": "使用者名稱無效",
-    "invalid_address": "CKB 位址格式無效",
+    "invalid_address": "CKB 地址格式無效",
     "no_data": "未找到 JoyID 帳號",
     "next": "繼續",
     "login": "切換",
@@ -321,14 +321,14 @@
     "title": "發送 Dobs",
     "send-to": "發送至",
     "fee": "Fee",
-    "ckb-address": "CKB 位址或 .bit",
+    "ckb-address": "CKB 地址或 .bit",
     "send": "發送",
     "confirm": "確認",
-    "invalid_address": "無效的 CKB 位址",
+    "invalid_address": "無效的 CKB 地址",
     "transfer_success": "發送成功",
     "errors": {
       "send_to_self": "無法向自己發送收藏品",
-      "invalid_address": "無效的 CKB 位址",
+      "invalid_address": "無效的 CKB 地址",
       "wait-for-confirmation": "請等待上一筆交易完成後，再進行操作"
     }
   },
@@ -447,7 +447,7 @@
       "btn": "我已知道"
     },
     "dialog": {
-      "title": "刪除授權換",
+      "title": "刪除授權環境",
       "desc": "下次進入該環境，您需要重新登入",
       "delete": "刪除",
       "cancel": "取消"
@@ -539,7 +539,7 @@
     "sign-in-desc": "<b>{{host}}</b>",
     "signing": "您正在簽署:",
     "messages": "簽署訊息",
-    "warning": "您正在授權外部網頁的動作",
+    "warning": "您正在授權外部網頁的操作",
     "cancel": "取消",
     "confirm": "確認",
     "qrcode": "請確認 Fingerprint \n與二維碼下的指紋一致。",
@@ -565,12 +565,12 @@
     "upgrade-now": "立即升級",
     "errors": {
       "send_to_self": "無法向自己發送 CKB",
-      "invalid_address": "無效的 CKB 位址",
+      "invalid_address": "無效的 CKB 地址",
       "minimum_amount": "請至少發送 {{amount}} CKB",
       "invalid_amount": "無效的數量",
       "insufficient_balance": "餘額不足",
-      "send_nft_to_self": "無法傳送 Dobs",
-      "token_not_found": "Dob 不屬於目前位址",
+      "send_nft_to_self": "無法向自己發送 Dobs",
+      "token_not_found": "Dob 不屬於目前地址",
       "cota_cell_not_found": "找不到 CoTA cell",
       "invalid_token_key": "無效的 token key",
       "other_error": "回應逾時，請重試。"
@@ -711,8 +711,8 @@
       "title": "之前的裝置授權",
       "desc": "使用先前註冊的可以登入 JoyID 的裝置授權新金鑰",
       "authorize": "授權",
-      "authorizing": "授權",
-      "authorized": "授權",
+      "authorizing": "授權中",
+      "authorized": "授權完成",
       "warn": "這可能需要 1-5 分鐘。\n不要關閉或重新整理頁面"
     },
     "step-3": {
@@ -909,10 +909,10 @@
     "select-network": "選擇網路",
     "receive": "接收",
     "receive-asset": "接收網路 - ",
-    "show-address": "顯示位址",
+    "show-address": "顯示地址",
     "ckb-note": "🔔注意事項",
     "ckb-desc": " 一些錢包和交易所可能不支援向該地址轉帳。為確保您能收到資產，請使用 imToken、Neuron 或 Portal 錢包。",
-    "btc-desc": "只支援 BTC/RGB++ 資產，不要向該位址轉入 Ordinals，BRC20，ARC20 等資產",
+    "btc-desc": "只支援 BTC/RGB++ 資產，不要向該地址轉入 Ordinals，BRC20，ARC20 等資產",
     "bitcoin_title": "Bitcoin 生態",
     "evm_title": "EVM 生態",
     "more": "更多",
@@ -937,8 +937,8 @@
     "google": "Google service",
     "icloud": "iCloud",
     "with-icloud": "透過 iCloud",
-    "nervos-address": "CKB 位址",
-    "address": "透過 CKB 位址恢復",
+    "nervos-address": "CKB 地址",
+    "address": "透過 CKB 地址恢復",
     "other-login-options": "其他登入方式",
     "more-options": "我已註冊帳號",
     "recover-with-address": "透過地址恢復帳號",
@@ -1063,7 +1063,7 @@
     "list": "上架",
     "trade": "交易",
     "no-owned-token": "目前帳號無 {{token}}",
-    "address-required": "需要輸入位址",
+    "address-required": "需要輸入地址",
     "amount-required": "需要輸入數量",
     "coming-soon": "即將到來",
     "xudt": {
@@ -1091,13 +1091,13 @@
     },
     "eth": {
       "navbar": "ETH",
-      "to_address_placeholder": "接收位址",
+      "to_address_placeholder": "接收地址",
       "select_address": "選擇地址",
       "errors": {
-        "send_to_self": "無法傳送 ETH",
-        "invalid_address": "無效的位址/DID",
-        "did_not_found": "'{{ did }}'未和 Ethereum 位址關聯",
-        "select_did": "請選擇位址",
+        "send_to_self": "無法向自己發送 ETH",
+        "invalid_address": "無效的地址/DID",
+        "did_not_found": "'{{ did }}'未和 Ethereum 地址關聯",
+        "select_did": "請選擇地址",
         "minimum_amount": "請至少發送 {{amount}}CKB",
         "invalid_amount": "無效的數量",
         "insufficient_balance": "餘額不足",
@@ -1106,10 +1106,10 @@
     },
 "btc": {
       "manage": {
-        "title": "設定預設位址",
-        "desc": "我們支援以下位址格式\n請設定在 JoyID 中使用的預設位址 "
+        "title": "設定預設地址",
+        "desc": "我們支援以下地址格式\n請設定在 JoyID 中使用的預設地址 "
       },
-      "to_address_placeholder": "Bitcoin 位址或 .bit",
+      "to_address_placeholder": "Bitcoin 地址或 .bit",
       "available": "可用餘額",
       "unconfirmed": "待確認餘額",
       "dust": "粉塵餘額",
@@ -1119,9 +1119,9 @@
     },
     "usdc": {
       "navbar": "USDC",
-      "to_address_placeholder": "接收位址"
+      "to_address_placeholder": "接收地址"
     },
-    "to_address_placeholder": "CKB 位址或 .bit",
+    "to_address_placeholder": "CKB 地址或 .bit",
     "transfer_success": "發送成功",
     "net_worth": "淨值",
     "send": "發送",
@@ -1153,7 +1153,7 @@
     "gas_fee": "手續費",
     "total": "總計",
     "receive_ckb": "接收",
-    "only_ckb": "請注意，僅屬於\n<hl>Nervos 或 Alpha</hl> 網路的代幣可以存入該位址\n存入其他網路的代幣將導致永久遺失。",
+    "only_ckb": "請注意，僅屬於\n<hl>Nervos 或 Alpha</hl> 網路的代幣可以存入該地址\n存入其他網路的代幣將導致永久遺失。",
     "update_tx_fee": "該交易將以更高的手續費重發，並覆蓋先前的交易。",
     "activity": "交易記錄",
     "orders": "掛單",
@@ -1172,9 +1172,9 @@
       "send_all": "發送所有"
     },
     "errors": {
-      "send_to_self": "無法傳送資產給自己的地址",
-      "invalid_address": "無效的 CKB 位址",
-      "invalid_btc_address": "無效的 BTC 位址格式",
+      "send_to_self": "無法發送資產給自己的地址",
+      "invalid_address": "無效的 CKB 地址",
+      "invalid_btc_address": "無效的 BTC 地址格式",
       "minimum_amount": "請至少發送{{amount}} CKB",
       "invalid_amount": "無效的數量",
       "insufficient_utxo": "目前無法使用小於 10000 聰的 UTXO 組裝交易，請調整發送金額，或直接發送全部。",
@@ -1292,7 +1292,7 @@
       "smart-pass-parks-link": "https://www.smartlayer.network/pass？tab=perk",
       "signed-token-error": "無效的 Smart Pass signedToken",
       "smart-pass-title": "獲得 1,500 ",
-      "smart-pass-desc": "成功連接 JoyID 皮夾後，可獲得 1,500 點",
+      "smart-pass-desc": "成功連接 JoyID 錢包後，可獲得 1,500 點",
       "smart-pass-points-awarded": "已獲得 1,500 Smart Pass 點數",
       "smart-pass-jpoints": "您可以額外取得 50 extral JPoints！"
     },
@@ -1542,15 +1542,15 @@
     "amount": "數量",
     "max": "Max: {{amount}} {{unit}}",
     "send": "發送",
-    "l1_send_to_placeholder": "Bitcoin 位址",
-    "l2_send_to_placeholder": "CKB 位址",
+    "l1_send_to_placeholder": "Bitcoin 地址",
+    "l2_send_to_placeholder": "CKB 地址",
     "insufficient_balance": "餘額不足",
     "insufficient_utxo": "BTC 餘額不足以付手續費",
     "invalid_amount": "輸入無效",
     "amount_required": "輸入無效",
-    "address_required": "請輸入位址",
-    "invalid_btc_address":"BTC 位址格式錯誤",
-    "invalid_ckb_address":"CKB 位址格式錯誤",
+    "address_required": "請輸入地址",
+    "invalid_btc_address":"BTC 地址格式錯誤",
+    "invalid_ckb_address":"CKB 地址格式錯誤",
     "select_option": {
       "l1": "<icon /> Bitcoin L1",
       "l2": "<icon /> Bitcoin L2 <comment>(CKB)</comment>"
@@ -1591,8 +1591,8 @@
       "title": "\uD83D\uDD14 注意",
       "description": "<error>❌ 不支援第三方錢包</error>請<b>發送至支援 RGB++ 資產的錢包，例如 JoyID。</b> 以免資產遭受損失"
     },
-    "btc_address_placeholder": "Bitcoin 位址",
-    "address-required": "請輸入位址",
+    "btc_address_placeholder": "Bitcoin 地址",
+    "address-required": "請輸入地址",
     "send_to": "發送至",
     "fee_rate": "費率",
     "confirm": "確認",
